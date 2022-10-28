@@ -1,0 +1,19 @@
+fun main() {
+/* 
+This program determines the user's age using an arithmetic magic trick. 
+*/ 
+val name = "Azar"
+var age: Int
+
+age = 3 * 4
+
+age += 3
+
+age *= 2
+
+age += 4
+
+age -= 4
+println("$name`s age is $age")
+
+}
